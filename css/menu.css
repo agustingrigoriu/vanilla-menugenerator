@@ -1,0 +1,81 @@
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+nav.showMenu {
+  margin-left: 0;
+  transition: all 0.2s ease;
+}
+
+@media only screen and (min-width: 801px) {
+  nav {
+    display: block;
+    width: 17em;
+    background-color: #4F4E4E;
+    height: calc(100% - 49px);
+    float: left;
+    margin-right: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    position: relative;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 801px) {
+  nav  {
+    display: block;
+    width: 17em;
+    background-color: #4F4E4E;
+    height: calc(100% - 49px);
+    float: left;
+    margin-right: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    position: relative;
+    margin-left: -17em;
+    transition: all 0.2s ease;
+  }
+}
+
+nav label {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: left; /* Center-align text */
+    padding: 8px; /* Add some padding */
+    color: white; /* White text color */
+    font-size: 1.1em; /* Increased font-size */
+    font-weight: normal;
+}
+
+nav li {
+  list-style: none;
+}
+
+li.active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav label:hover {
+    color: #9F9F9F;
+}
+
+nav label:focus {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+.collapse-sign em {
+  width: 2em;
+  text-align: right;
+}

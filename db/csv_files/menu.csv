@@ -1,0 +1,4 @@
+idmenu, menu
+1, MENU_ROOT
+2, MENU_ADMIN
+3, MENU_USER

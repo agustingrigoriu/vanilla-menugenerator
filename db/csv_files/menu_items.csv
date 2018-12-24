@@ -1,0 +1,21 @@
+idmenuitem, title, class, url, name
+1,Pacientes,fa fa-lg fa-fw fa-user,#/pacientes,pacientes
+2,Turnos,fa fa-lg fa-fw fa-calendar,#/turnos,turnos
+3,Estudios,fa fa-lg fa-fw fa-stethoscope,#/estudios,estudios
+4,Informes,fa fa-lg fa-fw fa-pencil-square-o,#/informes,informes
+5,Configuracion,fa fa-lg fa-fw fa-gear,null,configuracion
+6,Usuarios,fa fa-lg fa-fw fa-gear,#/users,usuarios
+7,Entidades,fa fa-lg fa-fw fa-gear,null,entidades
+8,Profesionales,fa fa-lg fa-fw fa-graduation-cap,#/physicians,physicians
+9,Instituciones,fa fa-lg fa-fw fa-building,#/instituciones,instituciones
+10,Especialidades,fa fa-lg fa-fw fa-list,#/especialidades,especialidades
+11,Prestaciones,fa fa-lg fa-fw fa-plus-square,#/prestaciones,prestaciones
+12,Equipos Dicom,fa fa-lg fa-fw fa-cube,#/dicoms,dicoms
+13,Modalidades,fa fa-lg fa-fw fa-desktop,#/modalities,modalities
+14,Agendas,fa fa-lg fa-fw fa-calendar-o,#/agendas,agendas
+15,Ubicaciones,fa fa-lg fa-fw fa-map-marker,#/locations,locations
+16,Plantillas,fa fa-lg fa-fw fa-file-text-o,#/templates,templates
+17,Defaults,fa fa-lg fa-fw fa-cogs,#/userconfiguration,userconfiguration
+18,Menú,fa fa-lg fa-fw fa-bars,null,menu
+19,Configuración,fa fa-lg fa-fw fa-pencil-square-o,#/menuconfiguration,menuconfiguration
+20,Ítems,fa fa-lg fa-fw fa-bars,#/menuitems,menuitems
